@@ -1,6 +1,6 @@
-## Animal Crossing New Horizons Helper
+## Animal Crossing New Horizons Joystick Helper
 
-Runs common laborious ACNH chores, allowing you to have a cup of tea.
+Runs common laborious ACNH chores, allowing you to put your feet up and have a cup of tea.
 
 * Make a Wish Chore :- Infinite loop attempting to make a wish. Use this on nights when Celeste makes a visit.
  (Don't forget to scavenge the beach to pick up your stars the next morning!)
@@ -20,7 +20,7 @@ Runs common laborious ACNH chores, allowing you to have a cup of tea.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/udo8mv5oarg/0.jpg)](https://www.youtube.com/watch?v=udo8mv5oarg)
 
 
-I've modified the original Zelda snowball code to allow multiple macros along with macro loops and calls.
+I've modified the original "Bertrand Fan's" Zelda Snowball code to allow multiple macros along with macro loops and calls.
 
 Loops and Calls can be nested up to 12 levels.
 
@@ -72,17 +72,23 @@ This repository has been tested using a Teensy 2.0++.
 Make Sure you have 'git' installed on your system
 
 First Clone this directory
-git clone https://github./johnnyw66/acnh-helper.git
+
+git clone https://github.com/johnnyw66/acnh-helper
+
 
 cd to the newly created directory 'acnh-helper' and clone the USB LUFA support libraries with the command
 
 git clone https://github.com/abcminiuser/lufa.git
 
+
 (alternatively you can run the bash script clonelufa.sh)
 
-Go to the Teensy website and download/install the [Teensy Loader application](https://www.pjrc.com/teensy/loader.html). For Linux, follow their instructions for installing the [GCC Compiler and Tools](https://www.pjrc.com/teensy/gcc.html). For Windows, you will need the [latest AVR toolchain](http://www.atmel.com/tools/atmelavrtoolchainforwindows.aspx) from the Atmel site. See [this issue](https://github.com/LightningStalker/Splatmeme-Printer/issues/10) and [this thread](http://gbatemp.net/threads/how-to-use-shinyquagsires-splatoon-2-post-printer.479497/) on GBAtemp for more information. (Note for Mac users - the AVR MacPack is now called AVR CrossPack. If that does not work, you can try installing `avr-gcc` with `brew`.)
+Thanks to 'Bertrand Fan' for the following text.
 
-Open a terminal window in the `acnh-helper` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing `acnh-helper.hex` onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
+"Go to the Teensy website and download/install the [Teensy Loader application](https://www.pjrc.com/teensy/loader.html). For Linux, follow their instructions for installing the [GCC Compiler and Tools](https://www.pjrc.com/teensy/gcc.html). For Windows, you will need the [latest AVR toolchain](http://www.atmel.com/tools/atmelavrtoolchainforwindows.aspx) from the Atmel site. See [this issue](https://github.com/LightningStalker/Splatmeme-Printer/issues/10) and [this thread](http://gbatemp.net/threads/how-to-use-shinyquagsires-splatoon-2-post-printer.479497/) on GBAtemp for more information. (Note for Mac users - the AVR MacPack is now called AVR CrossPack. If that does not work, you can try installing `avr-gcc` with `brew`.)
+
+Open a terminal window in the `acnh-helper` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing `acnh-helper.hex` onto your Teensy, which can be found page where you downloaded the Teensy Loader application."
+
 
 You can modify the board and macro code (macro.c) to implement and expand your own macros.
 
@@ -125,21 +131,24 @@ to the dip-switch and the opposite ends of the dip-switch are grounded to the GN
 sure that there is a break in the middle of the DIL.
 
 
-The internal pullup resistor mode is used for the C PORT pins - so there's no need to use external resistors.
+The internal pull-up resistor mode is used for the C PORT pins - so there's no need to use external resistors.
 
 (Note: One external 500 ohm resistor is used on D Port for an optional LED indicator)
 
 
 #### Thanks
 
-Thanks to xxx for his snowball post including his code and documentation.
+Thanks to 'Bertrand Fan' for his snowball post including his code and documentation.
 
-A full writeup is of his project is [here](https://medium.com/@bertrandom/automating-zelda-3b37127e24c8).
+Below is a quote from his project and I wish to extend my thanks to him and to those people he mentioned below.
 
+"A full writeup is of his project is [here](https://medium.com/@bertrandom/automating-zelda-3b37127e24c8).
 
 Thanks to Shiny Quagsire for his [Splatoon post printer](https://github.com/shinyquagsire23/Switch-Fightstick) and progmem for his [original discovery](https://github.com/progmem/Switch-Fightstick).
 
-Thanks to [exsilium](https://github.com/bertrandom/snowball-thrower/pull/1) for improving the command structure, optimizing the waiting times, and handling the failure scenarios. It can now run indefinitely!
+Thanks to [exsilium](https://github.com/bertrandom/snowball-thrower/pull/1) for improving the command structure, optimizing the waiting times, and handling the failure scenarios. It can now run indefinitely!"
+
+Please do let me know if I have omitted to thank anyone!
 
 
 Johnny Wilson, Sussex, UK. June 2020
