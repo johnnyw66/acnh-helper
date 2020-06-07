@@ -20,10 +20,7 @@ Runs common laborious ACNH chores, allowing you to put your feet up and have a c
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/udo8mv5oarg/0.jpg)](https://www.youtube.com/watch?v=udo8mv5oarg)
 
 
-I've modified the original "Bertrand Fan's" Zelda Snowball code to allow multiple macros along with macro loops and calls.
-
-Loops and Calls can be nested up to 12 levels.
-
+I've modified the original "Bertrand Fan's" Zelda Snowball code to allow multiple macros along with macro loops and calls. Loops and Calls can be nested up to 12 levels.
 
 #### Hardware mods/additions
 
