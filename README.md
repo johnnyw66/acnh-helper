@@ -139,6 +139,28 @@ The internal pull-up resistor mode is used for the C PORT pins - so there's no n
 
 (Note: One external 500 ohm resistor is used on D Port for an optional LED indicator)
 
+#### Default Switch Settings
+
+Macro 
+
+**Star Wish**     on, on, on
+
+**Build items**   on, on, off
+
+**Buy Fruit 100** on, off, on
+
+**Buy Fruit 200** on, off, off
+
+**Buy Fruit 300** off, on, on
+
+**Buy Fruit 400** off, on, off
+
+**Buy Fruit 10**  off, off, on
+
+**DEFAULT**       off, off, off
+
+
+
 
 #### Thanks
 
