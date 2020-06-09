@@ -17,14 +17,14 @@ Runs common laborious ACNH chores, allowing you to put your feet up and have a c
                     (leave the hand cursor on the 'Craft' button)
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/udo8mv5oarg/0.jpg)](https://www.youtube.com/watch?v=udo8mv5oarg)
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/GiRmx8cQK34/mq1.jpg?sqp=CIi9__YF&rs=AOn4CLCNbqYE3cQHBxSEN4Rkh863Wl7tvA)](https://youtu.be/GiRmx8cQK34)
 
 
 I've modified the original "Bertrand Fan's" Zelda Snowball code to allow multiple macros along with macro loops and calls. Loops and Calls can be nested up to 12 levels.
 
 #### Hardware mods/additions
 
-I've made changes to the original code to allow selection of multiple macros.  
+Changes were made to the original code to allow selection of multiple macros.  
 This was achieved by adding in a 4-way or 8-way dip-switch to the C port of the teensy.
 Since I only needed around 8 macros, I soldered only the first three pins of the switch
 to C1, C2 and C3. Since I intended to set these teensy pins to input mode (DDRC = 0)

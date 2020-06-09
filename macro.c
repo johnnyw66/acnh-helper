@@ -57,10 +57,10 @@ static command macro_quitmenu[] = {
 } ;
 
 static command macro_buyfruitbundle[] = {
-  { A,  5 }, // Select
-  {NOTHING,100},
+  { A,  5 },       // Select Fruit
+  {NOTHING,90},
   {A, 5},
-  {NOTHING,100},
+  {NOTHING,20},    // WAS 50,30
   {DOWN, 5},      // MOVE DOWN to 'TAKE 5' Fruit
   {NOTHING,20},
   {A, 5},					// CONFIRM PURCHASE
@@ -68,7 +68,7 @@ static command macro_buyfruitbundle[] = {
   {A, 5},					// 'EXCELLENT PURCHASE!''
   {NOTHING,60},
   {A, 5},					// ANYTHING ELSE?
-  {NOTHING,70},
+  {NOTHING,30},
   _RETURN
 } ;
 
@@ -87,13 +87,13 @@ static command macro_initfruitbuy[] = {
   // Move 9 Down
   _REPEAT(9),
     { DOWN,  5 },
-    {NOTHING,20},
+    {NOTHING,10},
   _ENDRPT,
 
 // Move Right - 3 across
   _REPEAT(3),
     { RIGHT,  5 },
-    {NOTHING,20},
+    {NOTHING,10},
   _ENDRPT,
   _RETURN
 
