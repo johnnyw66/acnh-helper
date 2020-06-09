@@ -96,12 +96,19 @@ if you want to test different macros with this script - then modify the -D_DEFAU
 other macro definitions.
 
 -D_DEFAULTMACRO_WISH    -- Used for wishing on starry nights when Celeste is around.
+
 -D_DEFAULTMACRO_BUILD   -- Build 40 items
+
 -D_DEFAULTMACRO_FRUITBUY400  -- Stock up on Fruit to Sell for a Big Profit on a friend's island.
+
 -D_DEFAULTMACRO_FRUITBUY300
+
 -D_DEFAULTMACRO_FRUITBUY200
+
 -D_DEFAULTMACRO_FRUITBUY100
+
 -D_DEFAULTMACRO_FRUITBUY10
+
 -D_DEFAULTMACRO_DEMO --Useless demo - move around pocket and swipe net/axe a few times.
 
 Be aware that some macros (such as -D_DEFAULTMACRO_WISH) may loop indefinitely!
