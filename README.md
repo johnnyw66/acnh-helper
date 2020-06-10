@@ -17,7 +17,7 @@ Runs common laborious ACNH chores, allowing you to put your feet up and have a c
                     (leave the hand cursor on the 'Craft' button)
 
 
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/GiRmx8cQK34/mq1.jpg?sqp=CIi9__YF&rs=AOn4CLCNbqYE3cQHBxSEN4Rkh863Wl7tvA)](https://youtu.be/GiRmx8cQK34)
+[![https://youtu.be/GiRmx8cQK34](https://i9.ytimg.com/vi/GiRmx8cQK34/mq1.jpg?sqp=CMDhg_cF&rs=AOn4CLApqhkGW6dUo1dVnUNVl5bTt6-jnw)](https://youtu.be/GiRmx8cQK34)
 
 
 I've modified the original "Bertrand Fan's" Zelda Snowball code to allow multiple macros along with macro loops and calls. Loops and Calls can be nested up to 12 levels.
